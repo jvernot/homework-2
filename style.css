@@ -1,3 +1,8 @@
+body {
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
 
 #name-plate {
     background: teal;
@@ -23,7 +28,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.col-8.aboutpage {
+.col-12.aboutpage, .col-12.contactpage, .col-12.portpage {
     background: white;
     border: 1px solid grey;
     padding-top: 5px;
@@ -32,9 +37,25 @@ h2 {
 
 .row.content {
     padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .aboutimg {
     float: left;
     margin: 30px;
+}
+
+.gameimg {
+    background: red;
+    text-align: center;
+}
+
+.row.top, .row.bottom {
+    padding-bottom: 40px;
+}
+
+.portimgs {
+    width: 200px;
+    height: auto;
+    overflow: auto;
 }
