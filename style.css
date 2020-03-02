@@ -1,6 +1,9 @@
 body {
-    margin-bottom: 40px;
     box-sizing: border-box;
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
 }
 
 
@@ -19,13 +22,15 @@ body {
 }
 
 .navbar {
-    border-bottom: 2px solid grey;
+    border-bottom: 5px solid grey;
     margin-bottom: 25px;
 }
 
 h2 {
     color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 40px;
 }
 
 .col-12.aboutpage, .col-12.contactpage, .col-12.portpage {
@@ -33,6 +38,12 @@ h2 {
     border: 1px solid grey;
     padding-top: 5px;
     text-align: left;
+    margin-bottom: 40px;
+}
+
+.aboutimg0 {
+    float: left;
+    margin: 29px;
 }
 
 .row.content {
@@ -40,22 +51,33 @@ h2 {
     margin-bottom: 20px;
 }
 
-.aboutimg {
+.aboutimg1, .aboutimg2, .aboutimg3 {
     float: left;
     margin: 30px;
+    border: 3px solid red;
+    position: relative;
+    height: 150px;
 }
 
-.gameimg {
-    background: red;
+.gameh4, .gameh5, .gameh6 {
+    background: teal;
+    position: absolute;
+    bottom: 10px;
+    margin: 30px;
+    width: 150px;
+    height: 35px;
     text-align: center;
 }
 
-.row.top, .row.bottom {
-    padding-bottom: 40px;
+.bd-footer {
+    border-top: 5px solid teal;
+    height: 80px;
+    background: grey;
+
 }
 
-.portimgs {
-    width: 200px;
-    height: auto;
-    overflow: auto;
+.footer-text {
+    color: white;
+    text-align: center;
+    padding-top: 26px;
 }
